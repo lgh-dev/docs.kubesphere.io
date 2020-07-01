@@ -21,6 +21,7 @@ description: ''
 |local-apt|TCP|allow|5080||离线环境安装|
 |rpcbind|TCP|allow|111|| 使用 NFS 作为持久化存储
 |ipip|IPIP|allow| | |Calico 需要允许 IPIP 协议 |
+|redis|TCP|allow|6379||这个端口不开导致ks-account处于init状态|
 
 **注意事项**
 
